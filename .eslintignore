@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+coverage
+__test__
+
+# Ignore all HTML files:
+*.html
+
+# Ignore generated script:

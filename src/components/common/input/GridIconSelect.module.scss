@@ -1,0 +1,23 @@
+.root:global(.ui.dropdown) {
+  :global(.menu) {
+    min-width: initial;
+
+    // grid
+    :global(.visible) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+
+    :global(.item) {
+      display: inline-block;
+      text-align: center;
+      width: 25%; // grid
+
+      :global(.icon) {
+        margin-right: 0;
+      }
+    }
+  }
+}

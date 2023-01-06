@@ -1,0 +1,34 @@
+.statsticWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.statistic {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.colorWhite {
+  color: #fff !important;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.labelTopLeft {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.responsiveFontSize4 {
+  font-size: 4vw !important;
+}
+
+.responsiveFontSize6 {
+  font-size: 6vw !important;
+}
